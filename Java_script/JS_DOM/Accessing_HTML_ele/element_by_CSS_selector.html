@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+<body>
+    <h1>Hello</h1>
+    <p class="selector">1st selector</p>
+    <p class="selector">2nd selector</p>
+    <p id="id_selector">Id selector</p>
+    <script>
+        var c = document.getElementsByClassName("selector");
+        document.getElementById("id_selector").innerHTML = 'hello' + c[0].innerHTML;
+    </script>
+</body>

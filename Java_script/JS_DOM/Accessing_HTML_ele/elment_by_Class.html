@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Hello World</h2>
+    <p class="one">1st P tag</p>
+    <p class="one">2nd P tag</p>
+    <p id="tag_id"></p>
+    <script>
+        var v = document.getElementsByClassName("one");
+        document.getElementById("tag_id").innerHTML = 'hello' + v[0].innerHTML;
+    </script>
+</body>
+
+</html>

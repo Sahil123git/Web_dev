@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <script>
+        function abc() {
+            var ab = document.form.pass.value;
+            if (ab == null || ab == "") {
+                window.alert("Can't submit will 0 text");
+            }
+            else if (ab.length < 6) {
+                window.alert("Enter 6 digits");
+            }
+            else {
+                window.alert("Your response has been submited");
+            }
+        }
+    </script>
+</head>
+<form name=form>
+    <input type="password" name=pass>
+    <input type="submit" onclick="abc()">
+</form>
+
+</html>

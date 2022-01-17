@@ -1,0 +1,16 @@
+.gen:hover {
+  background-color: red;
+  color: black;
+}
+.red:visited {
+  color: blue;
+  background-color: crimson;
+}
+#ind:focus {
+  color: brown;
+  background-color: pink;
+}
+#dind:active {
+  color: hotpink;
+  background-color: darkslateblue;
+}

@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'h1 h1 h1 h2 h2 h2'
+                'h3 h3 h4 h4 h5 h5'
+                'h6 h6 h6 h7 h7 h7'
+                'h6 h6 h6 h8 h8 h8';
+            background-color: blue;
+            padding: 10px;
+            grid-gap: 10px;
+
+        }
+
+        .grid-container>div {
+            background-color: powderblue;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .grid-item1 {
+            grid-area: h1;
+        }
+
+        .grid-item2 {
+            grid-area: h2;
+        }
+
+        .grid-item3 {
+            grid-area: h3;
+        }
+
+        .grid-item4 {
+            grid-area: h4;
+        }
+
+        .grid-item5 {
+            grid-area: h5;
+        }
+
+        .grid-item6 {
+            grid-area: h6;
+        }
+
+        .grid-item7 {
+            grid-area: h7;
+        }
+
+        .grid-item8 {
+            grid-area: h8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item1">1</div>
+        <div class="grid-item2">2</div>
+        <div class="grid-item3">3</div>
+        <div class="grid-item4">4</div>
+        <div class="grid-item5">5</div>
+        <div class="grid-item6">6</div>
+        <div class="grid-item7">7</div>
+        <div class="grid-item8">8</div>
+
+    </div>
+</body>
+
+</html>

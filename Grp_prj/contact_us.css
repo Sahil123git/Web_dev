@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+a:hover {
+  -webkit-mask-image: linear-gradient(
+    -75deg,
+    rgba(0, 0, 0, 0.6) 30%,
+    #000 50%,
+    rgba(0, 0, 0, 0.6) 70%
+  );
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+}
+
+.row {
+  width: 1450px;
+  height: 230px;
+  position: absolute;
+  top: 90%;
+  left: 2%;
+  color: white;
+  font-size: 20px;
+  font-weight: 5px;
+  background: #000000;
+  border-radius: 10px;
+  opacity: 500%;
+}
+
+.col-sm-4 {
+  text-align: center;
+  top: 17%;
+  left: 9%;
+  color: white;
+}
+.emoji {
+  text-align: center;
+}
+.row hr {
+  border-bottom: 4px solid #99bbff;
+}
+.contactbox {
+  width: 450px;
+  height: 490px;
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  color: black;
+  font-size: 20px;
+  font-weight: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  opacity: 500%;
+}
+.details {
+  display: block;
+}
+.heading {
+  color: aliceblue;
+  font-size: 60px;
+  font-weight: 20px;
+}
+
+.button {
+  font-size: 20px;
+  width: 50%;
+  background: none;
+  border: 2px solid #003cb3;
+  border-radius: 20px;
+  color: black;
+  padding: 10px;
+  margin-top: 35px;
+  margin-left: 105px;
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #003cb3; /* Blue */
+  color: black;
+}
+
+.inputbox {
+  width: 94%;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 3px;
+  margin: 8px 0;
+  border-bottom: 2px solid #889ba5;
+  font-size: 22px;
+}
+
+.contactbox-head h1 {
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+.contactbox-head l1 {
+  font-size: 20px;
+  font-weight: 50;
+  margin-bottom: 40px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+.contactbox hr {
+  border-bottom: 4px solid #003cb3;
+}
+.inputbox input {
+  outline: none;
+  border: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+}
+#fname {
+  margin-top: 5px;
+}
+#emailid {
+  margin-top: 5px;
+}
+#messagebox {
+  margin-top: 5px;
+}
+
+.nav {
+  display: flex;
+
+  justify-content: space-around;
+  width: 10px;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+.nav a {
+  margin-top: 40px;
+  color: azure;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.logo {
+  /* margin-top: -100px;
+  margin-left: 80px; */
+  margin-top: -120px;
+  margin-left: 100px;
+}

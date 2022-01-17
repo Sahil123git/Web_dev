@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <style>
+        table>thead {
+            background-color: pink;
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tbody>tr:nth-child(even) {
+            background-color: gray;
+        }
+
+        tbody>tr>th,
+        tfoot>tr>th {
+            background-color: skyblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Group</th>
+                <th>Mark</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th colspan="5">Final students marks</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Adam</td>
+                <td>Abacki</td>
+                <td>A</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ewa</td>
+                <td>Babacka</td>
+                <td>B</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Edward</td>
+                <td>Cabacki</td>
+                <td>A</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tomasz</td>
+                <td>Dadacki</td>
+                <td>A</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Anna</td>
+                <td>Kowalska</td>
+                <td>B</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Marek</td>
+                <td>Zawadzki</td>
+                <td>A</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="5">Average marks in groups</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td colspan="2"></td>
+                <td>A</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="2"></td>
+                <td>B</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+
+</html>

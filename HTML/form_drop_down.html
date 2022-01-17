@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <title>Page Title</title>
+    <style>
+        table {
+            text-align: center;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 20px;
+            border: 2px solid red;
+        }
+
+        .monkey {
+            background-color: #23ab56;
+        }
+
+        .zebra {
+            background-color: #45acbd;
+        }
+
+        /* table,
+        th,
+        tr {
+            padding: 10px 20px;
+            border-spacing: 10px;
+            background-color: #23ab5d;
+        } */
+    </style>
+</head>
+
+<body>
+    <h2>Register your opinion</h2>
+    <p>How well do you rate the information on this site (where 1 is very poor, and 5 is very good)?</p>
+
+    <form>
+        <table>
+            <tr>
+
+                <td><input type="radio" id="vpoor" name="rad"></td>
+                <td><input type="radio" id="poor" name="rad"></td>
+                <td><input type="radio" id="avg" name="rad"></td>
+                <td><input type="radio" id="good" name="rad"></td>
+                <td><input type="radio" id="vgood" name="rad" checked="checked"></td>
+            </tr>
+            <tr>
+                <td><label for="vpoor">1 <br> Very Poor</label></td>
+                <td><label for="poor">2 <br> Poor</label></td>
+                <td><label for="avg">3 <br> Average</label></td>
+                <td><label for="good">4 <br> Good</label></td>
+                <td><label for="vgood">5 <br> Very Good</label></td>
+            </tr>
+        </table>
+        <input type="submit" value="Vote now">
+    </form>
+    <br>
+    fruits<select>
+        <option>orange</option>
+        <option>banana</option>
+        <option>apple</option>
+    </select><br>
+    fruits and vegetables
+    <select>
+        <optgroup label="fruits">
+            <option>orange</option>
+            <option>banana</option>
+            <option>apple</option>
+        </optgroup>
+        <optgroup label="vegetables">
+            <option>potato</option>
+            <option>banana</option>
+            <option>apple</option>
+        </optgroup>
+    </select>
+
+
+
+
+
+</body>
+
+</html>

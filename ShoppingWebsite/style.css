@@ -524,7 +524,7 @@ iframe {
     justify-content: flex-start;
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -300px; /*to make hamburger menu not visible by shifting it by -300 px to right side*/
     height: 100vh;
     width: 260px;
     background-color: #e3e6f3;
